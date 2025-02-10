@@ -5,7 +5,7 @@
     {
       "category": "Introduction",
       "pages": [
-        { "title": "Welcome", "path": "/introduction/welcome" },
+        { "title": "Home", "path": "/home.mdx" },
         { "title": "Why Ember?", "path": "/introduction/why-ember" }
       ]
     },
