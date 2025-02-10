@@ -1,81 +1,49 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
   "name": "Ember Docs",
-  "colors": {
-    "primary": "##ffe9de",
-    "light": "##ffe9de",
-    "dark": "##ffe9de"
-  },
-  "favicon": "https://i.imgur.com/fpp2Fpr.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.emberbot.xyz",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Support Server",
-          "href": "https://discord.gg/6heyUUREUP",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Status",
-          "href": "https://status.emberbot.xyz",
-          "icon": "signal-bars"
-        }
+  "description": "Official documentation for Ember, the powerful Discord security and moderation bot.",
+  "navigation": [
+    {
+      "category": "Introduction",
+      "pages": [
+        { "title": "Welcome", "path": "/introduction/welcome" },
+        { "title": "Why Ember?", "path": "/introduction/why-ember" }
+      ]
+    },
+    {
+      "category": "Setup",
+      "pages": [
+        { "title": "Getting Started", "path": "/setup/getting-started" },
+        { "title": "Installation", "path": "/setup/installation" },
+        { "title": "Configuration", "path": "/setup/configuration" }
+      ]
+    },
+    {
+      "category": "Commands",
+      "pages": [
+        { "title": "Moderation Commands", "path": "/commands/moderation" },
+        { "title": "Security Commands", "path": "/commands/security" },
+        { "title": "Utility Commands", "path": "/commands/utility" }
+      ]
+    },
+    {
+      "category": "Dashboard",
+      "pages": [
+        { "title": "Overview", "path": "/dashboard/overview" },
+        { "title": "Settings", "path": "/dashboard/settings" }
+      ]
+    },
+    {
+      "category": "FAQ",
+      "pages": [
+        { "title": "Common Questions", "path": "/faq/common-questions" },
+        { "title": "Troubleshooting", "path": "/faq/troubleshooting" }
       ]
     }
-  },
-  "logo": {
-    "light": "https://i.imgur.com/fpp2Fpr.png",
-    "dark": "https://i.imgur.com/fpp2Fpr.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@emberbot.xyz.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Invite Ember",
-      "href": "https://emberbot.xyz"
-    }
-  },
-  "footer": {
-    "socials": {
-      "discord": "https://discord.gg/6heyUUREUP",
-      "website": "https://emberbot.xyz",
-      "email": "mailto:support@emberbot.xyz.com"
-    }
+  ],
+  "links": {
+    "Website": "https://yourwebsite.com",
+    "Dashboard": "https://dashboard.yourwebsite.com",
+    "Support Server": "https://discord.gg/yourserver",
+    "Premium": "https://yourwebsite.com/premium"
   }
 }
